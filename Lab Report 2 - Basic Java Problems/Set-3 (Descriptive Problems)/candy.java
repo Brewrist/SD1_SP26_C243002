@@ -2,7 +2,7 @@
 X candies. To buy the rest, he visits a candy shop. In the shop, packets containing exactly
 4 candies are available.
 Determine the minimum number of candy packets he must buy so that he can give 1
-candy packet to each of the N children. */
+candy packet to each of the N children.*/
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class candy {
         System.out.print("Number of avaliable candies: ");
         int c = sc.nextInt();
         n -= (c / 4);
-        System.out.println("He must buy "+ n +" candy packets.");
+        System.out.println("He must buy "+ n +" candy packets from the store.");
         sc.close();
     }
 }
