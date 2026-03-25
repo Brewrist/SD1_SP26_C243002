@@ -7,3 +7,4 @@ public class Type_Casting {
         System.out.println(c);
     }
 }
+

@@ -8,8 +8,9 @@ public class Variables {
         boolean flag = false;
         // above are bad variable names, hard to understand what they do.
 
-        String name = "Hlw name ";
-        final int Num = 15; // constant
-        System.out.println(name + Num);
+        String name = "Your Name: ";
+        final int age = 22; // constant
+        System.out.println(name + age);
     }
 }
+

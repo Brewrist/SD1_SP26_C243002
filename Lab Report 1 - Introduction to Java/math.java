@@ -13,3 +13,4 @@ public class math {
         System.out.println(randomNum);
     }
 }
+

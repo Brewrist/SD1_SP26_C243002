@@ -7,3 +7,4 @@ public class If_Else {
             System.out.println("Odd");
     }
 }
+
