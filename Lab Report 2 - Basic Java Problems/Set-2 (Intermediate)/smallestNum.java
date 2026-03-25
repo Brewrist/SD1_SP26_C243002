@@ -1,3 +1,5 @@
+// Find the smallest number in an array
+
 import java.util.Scanner;
 
 public class smallestNum {

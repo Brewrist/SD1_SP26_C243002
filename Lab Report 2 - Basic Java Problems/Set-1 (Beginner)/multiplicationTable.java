@@ -1,3 +1,5 @@
+// Print the multiplication table of a number
+
 import java.util.Scanner;
 
 public class multiplicationTable {

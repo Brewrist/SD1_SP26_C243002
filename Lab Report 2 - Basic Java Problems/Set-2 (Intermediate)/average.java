@@ -1,3 +1,5 @@
+// Calculate the average of an array
+
 import java.util.Scanner;
 
 public class average {

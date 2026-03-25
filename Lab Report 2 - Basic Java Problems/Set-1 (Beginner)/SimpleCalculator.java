@@ -1,3 +1,5 @@
+// Simple Calculator (Add, Subtract, Multiply, Divide): Use if-else or switch to perform operations.
+
 import java.util.Scanner;
 
 public class SimpleCalculator {

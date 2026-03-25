@@ -1,3 +1,5 @@
+// Find the largest number in an array
+
 import java.util.Scanner;
 
 public class largestNum {

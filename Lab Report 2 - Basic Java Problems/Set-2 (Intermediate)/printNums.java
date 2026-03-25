@@ -1,3 +1,5 @@
+// Store and print 5 numbers in an array
+
 import java.util.Scanner;
 
 public class printNums {

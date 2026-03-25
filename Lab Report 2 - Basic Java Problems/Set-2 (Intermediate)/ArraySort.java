@@ -1,3 +1,5 @@
+// Sort an array (Ascending Order)
+
 import java.util.Scanner;
 
 public class ArraySort { //Merge Sort - O(nlogn)

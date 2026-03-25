@@ -1,3 +1,5 @@
+// Convert a string to uppercase and lowercase
+
 import java.util.Scanner;
 
 public class lowUpCase {

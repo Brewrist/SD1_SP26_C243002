@@ -1,3 +1,5 @@
+// Count even and odd numbers in an array
+
 import java.util.Scanner;
 
 public class evenOddCount {

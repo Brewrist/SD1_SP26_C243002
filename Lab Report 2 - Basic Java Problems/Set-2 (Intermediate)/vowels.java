@@ -1,3 +1,5 @@
+// Count vowels and consonants in a string
+
 import java.util.Scanner;
 
 public class vowels {
