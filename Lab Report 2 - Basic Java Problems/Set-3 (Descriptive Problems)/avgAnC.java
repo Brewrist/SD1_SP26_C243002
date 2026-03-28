@@ -12,10 +12,10 @@ public class avgAnC {
         int n = sc.nextInt();
         int m = sc.nextInt();
         if (n + m % 2 == 0) {
-            System.out.println("YES. The average of " + n + " and " + m + "is an Integer. " + (n + m) / 2);
+            System.out.println("YES. The average of " + n + " and " + m + " is an Integer. " + (n + m) / 2);
         }
         else {
-            System.out.println("No. The average of " + n + " and " + m + "is not an Integer.");
+            System.out.println("No. The average of " + n + " and " + m + " is not an Integer.");
         }
         sc.close();
     }

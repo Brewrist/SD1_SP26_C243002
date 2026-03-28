@@ -9,7 +9,7 @@ public class Maximum {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        System.out.println(Math.max(Math.max(a, b), c));
+        System.out.println("Largest Number " + Math.max(Math.max(a, b), c));
         sc.close();
     }
 }

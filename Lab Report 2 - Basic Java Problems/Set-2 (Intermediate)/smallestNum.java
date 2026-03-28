@@ -15,7 +15,7 @@ public class smallestNum {
         for (int i = 0; i < n; i++) {
             minVal = Math.min(minVal,arr[i]);
         }
-        System.out.println(minVal);
+        System.out.println("Smallest Number: "+minVal);
         sc.close();
     }
 }

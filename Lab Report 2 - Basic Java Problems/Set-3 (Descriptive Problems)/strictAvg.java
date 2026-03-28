@@ -8,15 +8,15 @@ import java.util.Scanner;
 public class strictAvg {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
         double avg = (double) (a + b) / 2;
         if (avg > c) {
-            System.out.println("YES. The average of " + a + " and " + b + "is strictly grater then " + c);
+            System.out.println("YES. The average of " + a + " and " + b + " is strictly grater then " + c);
         } else {
-            System.out.println("NO. The average of " + a + " and " + b + "is not strictly grater then " + c);
+            System.out.println("NO. The average of " + a + " and " + b + " is not strictly grater then " + c);
         }
         sc.close();
     }

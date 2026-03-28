@@ -6,14 +6,15 @@ public class ArraySort { //Merge Sort - O(nlogn)
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        //int n = sc.nextInt();
-        //int[] arr = new int[n];
-        int[] arr = { 10, 9, 8, 6, 7, 1, 2, 4, 3, 5 };
-
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        //int[] arr = { 10, 9, 8, 6, 7, 1, 2, 4, 3, 5 };
+        for (int j = 0; j < n; j++) {
+            arr[j] = sc.nextInt();
+        }
         mergeSort(arr);
 
-        for (int j = 0; j < 10; j++) {
-            //arr[i] = sc.nextInt();
+        for (int j = 0; j < n; j++) {
             System.out.print(arr[j] + " ");
         }
 

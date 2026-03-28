@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class noteBooks {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Pulp received: ");
+        System.out.print("Pulp received(KG): ");
         int n = sc.nextInt();
 
         System.out.println((n*1000)/100+" NoteBooks can be made.");

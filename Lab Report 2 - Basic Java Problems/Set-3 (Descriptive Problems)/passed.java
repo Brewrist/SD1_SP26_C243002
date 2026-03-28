@@ -1,19 +1,27 @@
-/*Recently You joined a new company. At this company, employees must work X hours
-each day from Saturday to Wednesday. Also, in this company, Wednesday is called Chill
-Day; employees only have to work for Y hours (Y<X) on Wednesday.
-Determine the total number of working hours in one week. */
+/*In IIUC, there are X sections, and each section has Y students.
+The semester-end results are in, and a total of Z students passed the exams.
+Assuming that all students appeared for the exams, 
+find whether the number of students who passed was strictly greater than 50%.*/
 
 import java.util.Scanner;
 
 public class passed {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Usual working hours: ");
+        System.out.print("Sections: ");
         int x = sc.nextInt();
-        System.out.print("Working hours on Wednesday: ");
+        System.out.print("Students per section: ");
         int y = sc.nextInt();
+        System.out.print("Students passed: ");
+        int z = sc.nextInt();
 
-        System.out.println("Working hours per week is "+((x*4)+y));
+        int total = x * y;
+
+        if (z > total / 2)
+            System.out.println("The number of students who passed was strictly greater than 50%");
+        else
+            System.out.println("The number of students who passed was not greater than 50%");
+
         sc.close();
     }
 }

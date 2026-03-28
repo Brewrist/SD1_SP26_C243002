@@ -8,7 +8,7 @@ public class minAssignHour {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        if(10-a<=3)
+        if(10-a>=3)
             System.out.println("The student can complete the assignments.");
         else
             System.out.println("The student can not complete the assignments.");

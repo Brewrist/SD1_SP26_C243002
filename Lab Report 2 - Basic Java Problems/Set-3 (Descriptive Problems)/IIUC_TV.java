@@ -9,8 +9,15 @@ import java.util.Scanner;
 public class IIUC_TV {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double a = sc.nextInt();
-        System.out.println("Minimum cost for using IIUC-TV is "+a/6+" per person");
+        System.out.print("Number of people: ");
+        double n = sc.nextInt();
+        System.out.print("Cost of one subscription: ");
+
+        double x = sc.nextInt();
+        double sub = (n + 5) / 6;
+        double totalCost = sub * x;
+        System.out.println("Minimum subscriptions needed: ");
+        System.out.println(totalCost);
         sc.close();
     }
 }

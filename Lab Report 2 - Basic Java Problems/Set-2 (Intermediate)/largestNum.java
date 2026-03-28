@@ -15,7 +15,7 @@ public class largestNum {
         for (int i = 0; i < n; i++) {
             maxVal = Math.max(maxVal,arr[i]);
         }
-        System.out.println(maxVal);
+        System.out.println("Largest Number: "+ maxVal);
         sc.close();
     }
 }

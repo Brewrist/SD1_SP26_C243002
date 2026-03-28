@@ -22,10 +22,10 @@ public class monopoly {
         int d = sc.nextInt();
         int sum = a+b+c+d;
         if (sum - a < a || sum - b < b || sum - c < c || sum - d < d) {
-            System.out.println("there is a monopoly in the market");
+            System.out.println("There is a monopoly in the market");
         }
         else {
-            System.out.println("there is no monopoly in the market");
+            System.out.println("There is no monopoly in the market");
         }
         sc.close();
     }

@@ -12,7 +12,7 @@ public class printNums {
         }
         System.out.print("You Entered: ");
         for (int i = 0; i < 5; i++) {
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
         sc.close();
     }
